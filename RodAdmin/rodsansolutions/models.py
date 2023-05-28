@@ -19,7 +19,7 @@ class Serviço(models.Model) :
     foto3 = models.FileField(('Anexar Imagem'), upload_to='media', max_length=100, default='',blank= True,help_text='Coloque Assinatura/Checklist')
     foto4 = models.FileField(('Anexar Imagem'), upload_to='media', max_length=100, default='',blank= True,help_text='Coloque Assinatura/Checklist')
     def __str__(self):
-     return f'{self.assistencia1}'
+     return f'{self.assistencia2}'
 
 class Assistencia(models.Model):
      assistencia2 = models.CharField('Assistencia', max_length=100)
