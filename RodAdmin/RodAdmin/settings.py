@@ -197,7 +197,7 @@ DATABASES = {
         'NAME': 'dbcs',
         'USER': 'root',
         'PASSWORD': 'Soises523',
-        'HOST': 'localhost',
+        'HOST': '127.0.0.1',
         'PORT': '3306',
     }
 }
